@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-  width: 144rem;
-  height: 294rem;
   display: flex;
-  justify-content: center;
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 `;

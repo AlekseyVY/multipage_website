@@ -22,6 +22,7 @@ export const ButtonContainerLight = styled.div`
     background: ${lightPeach};
   color: ${white};
     cursor: pointer;
+    transition: 0.5s ease;
   }
 `;
 
@@ -41,5 +42,6 @@ export const ButtonContainerDark = styled.div`
     background: ${lightPeach};
   color: ${white};
     cursor: pointer;
+    transition: 0.5s ease;
   }
 `;

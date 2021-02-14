@@ -11,12 +11,6 @@ export const HeaderContainer = styled.div`
 `
 
 
-export const LogoContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`
-
 
 export const NavGroupContainer = styled.div`
   width: 37rem;

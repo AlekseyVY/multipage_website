@@ -1,10 +1,11 @@
 import {HeaderContainer, NavGroup, NavGroupContainer, NavLink} from "./styles";
 import Image from 'next/image'
+import {FooterNavContainer} from "../Footer/styles";
 
 const Header = () => {
 
   return (
-    <HeaderContainer>
+    <FooterNavContainer>
       <div>
         <Image
           src={'/assets/shared/desktop/logo-dark.png'}
@@ -27,7 +28,7 @@ const Header = () => {
           </li>
         </NavGroup>
       </NavGroupContainer>
-    </HeaderContainer>
+    </FooterNavContainer>
   )
 }
 
