@@ -3,8 +3,7 @@
 
 html {
   font-size: 62.5%;
-  display: flex;
-  justify-content: center;
+  display: contents;
 }
 
 html,
@@ -50,4 +49,11 @@ body {
   justify-content: center;
   width: 144rem;
   height: 294rem;
+}
+
+@media (min-width: 1441px) {
+  html {
+    display: flex;
+    justify-content: center;
+  }
 }
