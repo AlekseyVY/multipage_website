@@ -1,12 +1,13 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Button from "./common/Button/Button";
+import {MainContainer} from "./styles";
+import Header from "./common/Header/Header";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Test page</h1>
-      <Button />
-    </div>
+    <MainContainer>
+      <Header />
+    </MainContainer>
   )
 }
+
+

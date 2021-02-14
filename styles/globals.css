@@ -41,4 +41,7 @@ body {
   font-size: 1.6rem;
   line-height: 2.6rem;
   letter-spacing: 0;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
 }
