@@ -9,6 +9,9 @@ export const PromoCardContainer = styled.div`
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${props => props.background});
   color: ${white};
   border-radius: 1.5rem;
+  &:hover {
+    cursor: pointer;
+  }
 `
 
 
@@ -16,9 +19,6 @@ export const LinkToProjects = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  &:hover {
-    cursor: pointer;
-  }
 `
 
 export const RightArrowLink = styled.img`

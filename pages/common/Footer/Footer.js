@@ -11,6 +11,8 @@ import {
 } from "./styles";
 import Button from "../Button/Button";
 import Image from "next/image";
+import Link from "next/link";
+import {NavLink} from "../Header/styles";
 
 
 export default function Footer(){
@@ -47,13 +49,19 @@ export default function Footer(){
               <FooterNavGroupContainer>
                 <FooterNavGroup>
                   <li>
-                    <FooterNavLink>OUR COMPANY</FooterNavLink>
+                    <Link href={'/About'}>
+                      <NavLink>OUR COMPANY</NavLink>
+                    </Link>
                   </li>
                   <li>
-                    <FooterNavLink>LOCATIONS</FooterNavLink>
+                    <Link href={'/Locations'}>
+                      <NavLink>LOCATIONS</NavLink>
+                    </Link>
                   </li>
                   <li>
-                    <FooterNavLink>CONTACT</FooterNavLink>
+                    <Link href={'/Contact'}>
+                      <NavLink>CONTACT</NavLink>
+                    </Link>
                   </li>
                 </FooterNavGroup>
               </FooterNavGroupContainer>

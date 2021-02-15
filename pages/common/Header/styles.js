@@ -47,3 +47,12 @@ export const NavLink = styled.a`
     cursor: pointer;
   }
 `
+
+
+export const NavLogo = styled.img`
+  width: 19.6rem;
+  height: 2.4rem;
+  &:hover {
+    cursor: pointer;
+  }
+`

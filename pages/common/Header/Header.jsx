@@ -1,30 +1,35 @@
-import {HeaderContainer, NavGroup, NavGroupContainer, NavLink} from "./styles";
-import Image from 'next/image'
+import {NavGroup, NavGroupContainer, NavLink, NavLogo} from "./styles";
 import {FooterNavContainer} from "../Footer/styles";
+import Link from 'next/link'
 
 const Header = () => {
 
   return (
     <FooterNavContainer>
       <div>
-        <Image
-          src={'/assets/shared/desktop/logo-dark.png'}
-          alt={'logo of company'}
-          width={196}
-          height={24}
-          quality={75}
-        />
+        <Link href={'/'}>
+          <NavLogo
+            src={'/assets/shared/desktop/logo-dark.png'}
+            alt={'logo of company'}
+          />
+        </Link>
       </div>
       <NavGroupContainer>
         <NavGroup>
           <li>
-            <NavLink>OUR COMPANY</NavLink>
+            <Link href={'/About'}>
+              <NavLink>OUR COMPANY</NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink>LOCATIONS</NavLink>
+            <Link href={'/Locations'}>
+              <NavLink>LOCATIONS</NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink>CONTACT</NavLink>
+            <Link href={'/Contact'}>
+              <NavLink>CONTACT</NavLink>
+            </Link>
           </li>
         </NavGroup>
       </NavGroupContainer>
