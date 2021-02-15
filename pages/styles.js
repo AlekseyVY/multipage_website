@@ -54,3 +54,19 @@ export const HeroPTextContainer = styled.div`
 export const H1Hero = styled.h1`
   margin-top: 0;
 `
+
+
+export const CardContainer = styled.div`
+  width: 111.1rem;
+  height: 64rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`
+
+export const InnerCardContainer = styled.div`
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+`

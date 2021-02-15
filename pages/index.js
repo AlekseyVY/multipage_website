@@ -3,17 +3,19 @@ import {MainContainer} from "../styles/styles";
 import Header from "./common/Header/Header";
 import Footer from "./common/Footer/Footer";
 import {
+  CardContainer,
   H1Hero,
   HeroButtonContainer,
   HeroContainer,
   HeroImage,
   HeroPTextContainer,
   HeroTextContainer,
-  ImageContainer,
+  ImageContainer, InnerCardContainer,
   Oval
 } from "./styles";
 import Image from 'next/image'
 import Button from "./common/Button/Button";
+import PromoCardDesign from "./common/PromoCardDesign/PromoCardDesign";
 
 export default function Home() {
   return (
@@ -38,6 +40,19 @@ export default function Home() {
           </HeroButtonContainer>
         </HeroTextContainer>
       </HeroContainer>
+      <CardContainer>
+        <div>
+          <PromoCardDesign height={'64rem'} type={"web"}/>
+        </div>
+        <InnerCardContainer>
+          <div>
+            <PromoCardDesign type={"app"}/>
+          </div>
+          <div>
+            <PromoCardDesign type={"graphic"}/>
+          </div>
+        </InnerCardContainer>
+      </CardContainer>
       <Footer />
     </MainContainer>
   )
