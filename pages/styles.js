@@ -1,7 +1,13 @@
 import styled from "styled-components";
 import {peach, white} from "../styles/colors";
 
-
+export const MainContainer = styled.div`
+  display: flex;
+  height: 294rem;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+`;
 
 export const HeroContainer = styled.div`
   width: 111.1rem;

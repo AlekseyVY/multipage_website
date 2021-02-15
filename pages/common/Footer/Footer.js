@@ -50,17 +50,17 @@ export default function Footer(){
                 <FooterNavGroup>
                   <li>
                     <Link href={'/About'}>
-                      <NavLink>OUR COMPANY</NavLink>
+                      <FooterNavLink>OUR COMPANY</FooterNavLink>
                     </Link>
                   </li>
                   <li>
                     <Link href={'/Locations'}>
-                      <NavLink>LOCATIONS</NavLink>
+                      <FooterNavLink>LOCATIONS</FooterNavLink>
                     </Link>
                   </li>
                   <li>
                     <Link href={'/Contact'}>
-                      <NavLink>CONTACT</NavLink>
+                      <FooterNavLink>CONTACT</FooterNavLink>
                     </Link>
                   </li>
                 </FooterNavGroup>

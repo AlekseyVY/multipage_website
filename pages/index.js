@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import {MainContainer} from "../styles/styles";
 import Header from "./common/Header/Header";
 import Footer from "./common/Footer/Footer";
 import {
@@ -10,7 +9,7 @@ import {
   HeroImage,
   HeroPTextContainer,
   HeroTextContainer,
-  ImageContainer, InnerCardContainer, MottoContainer,
+  ImageContainer, InnerCardContainer, MainContainer, MottoContainer,
   Oval
 } from "./styles";
 import Image from 'next/image'
