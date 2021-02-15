@@ -6,7 +6,7 @@ cache:
     - node_modules
 script:
   - npm run build
-  - next export
+  - npm run export
   - touch out/.nojekyll
 deploy:
   provider: pages
@@ -15,4 +15,4 @@ deploy:
   local_dir: out
   on:
     all_branches: true
-    condition: $TRAVIS_BRANCH =~ ^(master|main)$
+    condition: $TRAVIS_BRANCH =~ ^(main)$
