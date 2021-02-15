@@ -40,3 +40,8 @@ export const InnerContainer = styled.div`
   justify-content: center;
   position: relative;
 `
+
+
+
+const a = () => {return (<></>)}
+export default a

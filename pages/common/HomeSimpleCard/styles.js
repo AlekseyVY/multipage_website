@@ -34,3 +34,8 @@ export const TextContainer = styled.div`
   align-items: center;
   text-align: center;
 `
+
+
+
+const a = () => {return (<></>)}
+export default a

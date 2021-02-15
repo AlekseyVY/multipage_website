@@ -45,3 +45,7 @@ export const ButtonContainerDark = styled.div`
     transition: 0.5s ease;
   }
 `;
+
+const a = () => {return (<></>)}
+
+export default a

@@ -1,21 +1,21 @@
 import {MainText, PortfolioCardContainer, TextContainer} from "./styles";
 
 
-const CommonPortfolioCard = ({card}) => {
+const CommonPortfolioCard = ({card = ''}) => {
 
   return (
-    <PortfolioCardContainer icon={card.img}>
+    <PortfolioCardContainer icon={card.img || ''}>
       <TextContainer>
         <div>
           <MainText>
-            {card.name}
+            {card.name || ''}
           </MainText>
         </div>
         <div>
-          {card.text_top}
+          {card.text_top || ''}
         </div>
         <div>
-          {card.text_bot}
+          {card.text_bot || ''}
         </div>
       </TextContainer>
     </PortfolioCardContainer>

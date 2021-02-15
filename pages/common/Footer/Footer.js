@@ -4,7 +4,7 @@ import {
   FooterBottomInnerContainer,
   FooterContainer,
   FooterContainerBottom, FooterContainerForNav,
-  FooterContainerTop, FooterNavGroup,
+  FooterContainerTop, FooterLink, FooterNavGroup,
   FooterNavGroupContainer, FooterNavLink,
   H2text, Separator, SocialContainer, SocialElement, Strong,
   TopLeftTextContainer
@@ -37,7 +37,8 @@ export default function Footer(){
         <FooterBottomInnerContainer>
           <div>
             <FooterContainerForNav>
-              <div>
+              <Link href={'/'}>
+              <FooterLink>
                 <Image
                   src={'/assets/shared/desktop/logo-light.png'}
                   alt={'logo of company'}
@@ -45,7 +46,8 @@ export default function Footer(){
                   height={24}
                   quality={75}
                 />
-              </div>
+              </FooterLink>
+              </Link>
               <FooterNavGroupContainer>
                 <FooterNavGroup>
                   <li>

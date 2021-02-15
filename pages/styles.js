@@ -85,3 +85,8 @@ export const MottoContainer = styled.div`
   justify-content: space-between;
   margin-bottom: 26rem;
 `
+
+
+
+const a = () => {return (<></>)}
+export default a

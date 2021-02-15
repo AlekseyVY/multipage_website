@@ -147,3 +147,13 @@ export const SocialElement = styled.div`
     cursor: pointer;
   }
 `
+
+export const FooterLink = styled.div`
+  &:hover {
+    cursor: pointer;
+  }
+`
+
+
+const a = () => {return (<></>)}
+export default a

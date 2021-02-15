@@ -56,3 +56,8 @@ export const NavLogo = styled.img`
     cursor: pointer;
   }
 `
+
+
+
+const a = () => {return (<></>)}
+export default a

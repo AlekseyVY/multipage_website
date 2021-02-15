@@ -33,3 +33,6 @@ export const MainText = styled.h3`
   color: ${peach};
   margin-top: 0;
 `
+
+const a = () => {return (<></>)}
+export default a
