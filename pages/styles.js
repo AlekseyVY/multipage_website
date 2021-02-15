@@ -70,3 +70,12 @@ export const InnerCardContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
 `
+
+
+export const MottoContainer = styled.div`
+  width: 111.1rem;
+  height: 41.2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26rem;
+`

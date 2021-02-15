@@ -10,14 +10,24 @@ import {
   HeroImage,
   HeroPTextContainer,
   HeroTextContainer,
-  ImageContainer, InnerCardContainer,
+  ImageContainer, InnerCardContainer, MottoContainer,
   Oval
 } from "./styles";
 import Image from 'next/image'
 import Button from "./common/Button/Button";
 import PromoCardDesign from "./common/PromoCardDesign/PromoCardDesign";
+import { motion } from 'framer-motion'
+import {useEffect, useState} from "react";
+import HomeSimpleCard from "./common/HomeSimpleCard/HomeSimpleCard";
 
 export default function Home() {
+  // const [startAnimation, setStartAnimation] = useState(null)
+  //
+  // useEffect(() => {
+  //   let offset = document.getElementById('reveal').getBoundingClientRect()
+  //   console.log(offset.top)
+  // }, [])
+
   return (
     <MainContainer>
       <Header />
@@ -41,9 +51,9 @@ export default function Home() {
         </HeroTextContainer>
       </HeroContainer>
       <CardContainer>
-        <div>
+        <motion.div id='reveal'>
           <PromoCardDesign height={'64rem'} type={"web"}/>
-        </div>
+        </motion.div>
         <InnerCardContainer>
           <div>
             <PromoCardDesign type={"app"}/>
@@ -53,6 +63,17 @@ export default function Home() {
           </div>
         </InnerCardContainer>
       </CardContainer>
+      <MottoContainer>
+        <div>
+          <HomeSimpleCard type={'pas'}/>
+        </div>
+        <div>
+          <HomeSimpleCard type={'res'}/>
+        </div>
+        <div>
+          <HomeSimpleCard type={'fri'}/>
+        </div>
+      </MottoContainer>
       <Footer />
     </MainContainer>
   )
