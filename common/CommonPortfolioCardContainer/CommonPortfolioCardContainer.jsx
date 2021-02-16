@@ -72,7 +72,26 @@ const CommonPortfolioCardContainer = ({type = 'web'}) => {
       img: '/assets/app-design/desktop/image-loopstudios.jpg'
     }
   ]
-  const graphArr = []
+  const graphArr = [
+    {
+    name: 'TIM BROWN',
+    text_top: 'A book cover designed for Tim Brown’s ',
+    text_bot: 'new release, ‘Change’',
+    img: '/assets/graphic-design/desktop/image-change.jpg'
+  },
+    {
+      name: 'BOXED WATER',
+      text_top: 'A simple packaging concept made for ',
+      text_bot: 'Boxed Water',
+      img: '/assets/graphic-design/desktop/image-boxed-water.jpg'
+    },
+    {
+      name: 'SCIENCE!',
+      text_top: 'A poster made in collaboration with the',
+      text_bot: 'Federal Art Project',
+      img: '/assets/graphic-design/desktop/image-science.jpg'
+    }
+    ]
 
   let data
   switch (type) {
