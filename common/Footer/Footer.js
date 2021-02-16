@@ -15,24 +15,27 @@ import Link from "next/link";
 import {NavLink} from "../Header/styles";
 
 
-export default function Footer(){
+export default function Footer({top = true}){
   return (
     <FooterContainer>
-      <FooterContainerTop>
-        <TopLeftTextContainer>
+      { top ?
+        <FooterContainerTop>
+          <TopLeftTextContainer>
+            <div>
+              <H2text>
+                Let’s talk about your project
+              </H2text>
+            </div>
+            <div>
+              Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
+            </div>
+          </TopLeftTextContainer>
           <div>
-            <H2text>
-              Let’s talk about your project
-            </H2text>
+            <Button isLight={true} text={'GET IN TOUCH'}/>
           </div>
-          <div>
-            Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
-          </div>
-        </TopLeftTextContainer>
-        <div>
-          <Button isLight={true} text={'GET IN TOUCH'}/>
-        </div>
-      </FooterContainerTop>
+        </FooterContainerTop>
+        : ''
+      }
       <FooterContainerBottom>
         <FooterBottomInnerContainer>
           <div>

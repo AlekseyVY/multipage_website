@@ -1,17 +1,13 @@
 import Header from "../../common/Header/Header";
 import Footer from "../../common/Footer/Footer";
 import {
-  Circle,
   HeroContainer,
   HeroImage,
   HeroInnerLeft,
   HeroInnerRight,
   HeroMainText,
   HeroSecondText,
-  ImageContainer,
   InnerPromoTextContainer,
-  LocationCardContainer,
-  LocationContainer,
   MainContainer,
   PromoBlockContainer,
   PromoBlockContainerDown,
@@ -19,13 +15,11 @@ import {
   PromoMainText,
   RightInnerPromoContainer
 } from "../../styles/about/styles";
-import Button from "../../common/Button/Button";
+import LocationSection from "../../common/LocationSection/LocationSection";
 const heroIcon  = '/assets/about/desktop/image-about-hero.jpg'
 const promoPic = '/assets/about/desktop/image-world-class-talent.jpg'
 const PromoPicTwo = '/assets/about/desktop/image-real-deal.jpg'
-const canada = '/assets/shared/desktop/illustration-canada.svg'
-const australia = '/assets/shared/desktop/illustration-australia.svg'
-const uk = '/assets/shared/desktop/illustration-united-kingdom.svg'
+
 
 export default function About() {
   return(
@@ -69,50 +63,7 @@ export default function About() {
           </InnerPromoTextContainer>
         </RightInnerPromoContainer>
       </PromoBlockContainer>
-      <LocationContainer>
-        <LocationCardContainer>
-          <ImageContainer>
-            <img src={canada} alt={'canada icon'}/>
-            <Circle deg={'0deg'}/>
-          </ImageContainer>
-          <div>
-            <h3>
-              CANADA
-            </h3>
-          </div>
-          <div>
-            <Button isLight={false} text={'SEE LOCATION'}/>
-          </div>
-        </LocationCardContainer>
-        <LocationCardContainer>
-          <ImageContainer>
-            <img src={australia} alt={'australia icon'}/>
-            <Circle deg={'270deg'}/>
-          </ImageContainer>
-          <div>
-            <h3>
-              AUSTRALIA
-            </h3>
-          </div>
-          <div>
-            <Button isLight={false} text={'SEE LOCATION'}/>
-          </div>
-        </LocationCardContainer>
-        <LocationCardContainer>
-          <ImageContainer>
-            <img src={uk} alt={'UK icon'}/>
-            <Circle deg={'180deg'}/>
-          </ImageContainer>
-          <div>
-            <h3>
-              UNITED KINGDOM
-            </h3>
-          </div>
-          <div>
-            <Button isLight={false} text={'SEE LOCATION'}/>
-          </div>
-        </LocationCardContainer>
-      </LocationContainer>
+      <LocationSection />
       <PromoBlockContainerDown>
         <div>
           <PromoImageTwo src={PromoPicTwo} alt={'Promo Icon'}/>
