@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {black, lightPeach, peach, white} from "../../../../styles/colors";
+import {black, lightPeach, peach, white} from "../../../styles/colors";
 
 
 export const PortfolioCardContainer = styled.div`
@@ -33,6 +33,3 @@ export const MainText = styled.h3`
   color: ${peach};
   margin-top: 0;
 `
-
-const a = () => {return (<></>)}
-export default a

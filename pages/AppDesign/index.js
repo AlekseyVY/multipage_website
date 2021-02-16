@@ -1,7 +1,7 @@
-import Header from "../common/Header/Header";
-import Footer from "../common/Footer/Footer";
-import {MainContainer} from "./styles";
-import SimpleHero from "../common/SimpleHero/SimpleHero";
+import Header from "../../common/Header/Header";
+import Footer from "../../common/Footer/Footer";
+import {MainContainer} from "../../styles/appdesign/styles";
+import SimpleHero from "../../common/SimpleHero/SimpleHero";
 
 
 const AppDesign = () => {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {black} from "../../../styles/colors";
+import {black} from "../../styles/colors";
 
 
 export const HeaderContainer = styled.div`
@@ -58,6 +58,3 @@ export const NavLogo = styled.img`
 `
 
 
-
-const a = () => {return (<></>)}
-export default a

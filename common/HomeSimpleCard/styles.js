@@ -36,6 +36,3 @@ export const TextContainer = styled.div`
 `
 
 
-
-const a = () => {return (<></>)}
-export default a

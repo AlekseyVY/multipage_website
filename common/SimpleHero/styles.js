@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {peach, white} from "../../../styles/colors";
+import {peach, white} from "../../styles/colors";
 
 
 export const InnerHeroContainer = styled.div`
@@ -25,6 +25,3 @@ export const HeroContainer = styled.div`
   color: ${white};
 `
 
-
-const a = () => {return (<></>)}
-export default a

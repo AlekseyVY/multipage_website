@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {peach, white} from "../styles/colors";
+import {peach, white} from "../colors";
 
 export const MainContainer = styled.div`
   display: flex;
@@ -85,8 +85,3 @@ export const MottoContainer = styled.div`
   justify-content: space-between;
   margin-bottom: 26rem;
 `
-
-
-
-const a = () => {return (<></>)}
-export default a

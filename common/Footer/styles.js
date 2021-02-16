@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {black, lightGrey, peach, white} from "../../../styles/colors";
+import {black, lightGrey, peach, white} from "../../styles/colors";
 
 
 
@@ -154,6 +154,3 @@ export const FooterLink = styled.div`
   }
 `
 
-
-const a = () => {return (<></>)}
-export default a

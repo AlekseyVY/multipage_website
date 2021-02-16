@@ -26,7 +26,3 @@ export const LinkToPortfoliContainer = styled.div`
   align-items: center;
   margin-bottom: 26rem;
 `
-
-const a = () => {return (<></>)}
-
-export default a

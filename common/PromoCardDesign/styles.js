@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {lightPeach, white} from "../../../styles/colors";
+import {lightPeach, white} from "../../styles/colors";
 
 
 export const RelativeContainer = styled.div`
@@ -42,6 +42,3 @@ export const InnerContainer = styled.div`
 `
 
 
-
-const a = () => {return (<></>)}
-export default a

@@ -1,13 +1,13 @@
-import Header from "../common/Header/Header";
-import Footer from "../common/Footer/Footer";
+import Header from "../../common/Header/Header";
+import Footer from "../../common/Footer/Footer";
 import {
   LinkToPortfoliContainer,
   MainContainer,
   ProjectCardContainer
-} from "./styles";
-import CommonPortfolioCardContainer from "../common/CommonPortfolioCardContainer/CommonPortfolioCardContainer";
-import PromoCardDesign from "../common/PromoCardDesign/PromoCardDesign";
-import SimpleHero from "../common/SimpleHero/SimpleHero";
+} from "../../styles/webdesign/styles";
+import CommonPortfolioCardContainer from "../../common/CommonPortfolioCardContainer/CommonPortfolioCardContainer";
+import PromoCardDesign from "../../common/PromoCardDesign/PromoCardDesign";
+import SimpleHero from "../../common/SimpleHero/SimpleHero";
 
 
 export default function WebDesign() {

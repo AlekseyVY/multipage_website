@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from "./common/Header/Header";
-import Footer from "./common/Footer/Footer";
+import Header from "../common/Header/Header";
+import Footer from "../common/Footer/Footer";
 import {
   CardContainer,
   H1Hero,
@@ -11,13 +11,13 @@ import {
   HeroTextContainer,
   ImageContainer, InnerCardContainer, MainContainer, MottoContainer,
   Oval
-} from "./styles";
+} from "../styles/homepage/styles";
 import Image from 'next/image'
-import Button from "./common/Button/Button";
-import PromoCardDesign from "./common/PromoCardDesign/PromoCardDesign";
+import Button from "../common/Button/Button";
+import PromoCardDesign from "../common/PromoCardDesign/PromoCardDesign";
 import { motion } from 'framer-motion'
 import {useEffect, useState} from "react";
-import HomeSimpleCard from "./common/HomeSimpleCard/HomeSimpleCard";
+import HomeSimpleCard from "../common/HomeSimpleCard/HomeSimpleCard";
 
 export default function Home() {
   // const [startAnimation, setStartAnimation] = useState(null)

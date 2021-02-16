@@ -1,4 +1,4 @@
-import {black, lightPeach, peach, white} from "../../../styles/colors";
+import {black, lightPeach, peach, white} from "../../styles/colors";
 import styled from "styled-components";
 
 export const TextStyle = styled.p`
@@ -45,7 +45,3 @@ export const ButtonContainerDark = styled.div`
     transition: 0.5s ease;
   }
 `;
-
-const a = () => {return (<></>)}
-
-export default a

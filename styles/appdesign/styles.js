@@ -8,8 +8,3 @@ export const MainContainer = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-
-
-const a = () => {return (<></>)}
-
-export default a
