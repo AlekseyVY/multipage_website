@@ -11,17 +11,19 @@ export const PortfolioCardContainer = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   border-radius: 1.5rem;
+  will-change: transform;
   &:hover {
     cursor: pointer;
     transform:  scale(1.02);
     -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
   }
 `
 
 export const TextContainer = styled.div`
+  will-change: transform;
   height: 15.8rem;
   background: #FDF3F0;
   border-bottom-right-radius: 1.5rem;
@@ -35,6 +37,7 @@ export const TextContainer = styled.div`
 `
 
 export const MainText = styled.h3`
+  will-change: transform;
   color: ${peach};
   margin-top: 0;
 `
