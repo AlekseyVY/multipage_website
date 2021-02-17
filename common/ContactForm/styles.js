@@ -29,18 +29,25 @@ export const LabelWrapper = styled.div`
 
 
 export const InputInnerWrapper = styled.input`
-  background: ${peach};
+  background: ${peach} !important;
+  background-color: ${peach};
   outline: none;
   width: 38rem;
   height: 3.8rem;
   border: none;
   border-bottom: 1px solid ${white};
   color: ${white};
+
+  input:-webkit-autofill {
+    background-color: ${peach} !important;
+    -webkit-box-shadow: 0 0 0 50px white inset;
+  }
 `
 
 
 export const AreaInnerWrapper = styled.textarea`
   background: ${peach};
+  background-color: ${peach};
   outline: none;
   width: 38rem;
   height: 10.2rem;

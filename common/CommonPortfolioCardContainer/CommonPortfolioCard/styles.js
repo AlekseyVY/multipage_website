@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {black, lightPeach, peach, white} from "../../../styles/colors";
+import {black, peach} from "../../../styles/colors";
 
 
 export const PortfolioCardContainer = styled.div`
@@ -13,6 +13,11 @@ export const PortfolioCardContainer = styled.div`
   border-radius: 1.5rem;
   &:hover {
     cursor: pointer;
+    transform:  scale(1.02);
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
+    transition: 0.3s;
   }
 `
 

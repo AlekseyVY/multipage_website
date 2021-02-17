@@ -50,6 +50,8 @@ body {
   display: flex;
   justify-content: center;
   width: 144rem;
+
+
 }
 
 
@@ -64,3 +66,4 @@ body {
     font-size: 35%;
   }
 }
+
