@@ -6,6 +6,14 @@ export const LocationContainer = styled.div`
   height: 36.4rem;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 768px){
+    width: 76.8rem;
+    height: 123rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 
 `
 

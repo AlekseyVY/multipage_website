@@ -7,6 +7,10 @@ export const MainContainer = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 768px){
+    width: 76.8rem;
+    height: 466.3rem;
+  }
 `;
 
 
@@ -18,9 +22,18 @@ export const HeroContainer = styled.div`
   background: ${lightPeach};
   justify-content: space-between;
   border-radius: 1.5rem;
+  @media (max-width: 768px){
+    width: 69.8rem;
+    height: 63.2rem;
+    flex-direction: column-reverse;
+  }
 `
 
 export const HeroInnerRight = styled.div`
+  @media (max-width: 768px){
+    width: 69.8rem;
+    z-index: 1;
+  }
 `
 
 export const HeroInnerLeft = styled.div`
@@ -29,6 +42,10 @@ export const HeroInnerLeft = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px){
+    width: 69.8rem;
+    z-index: 2;
+  }
 `
 
 
@@ -44,6 +61,10 @@ export const HeroSecondText = styled.div`
 export const HeroImage = styled.img`
   border-bottom-right-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
+  @media (max-width: 768px){
+    width: 69.8rem;
+    z-index: 1;
+  }
 `
 
 export const PromoBlockContainer = styled.div`

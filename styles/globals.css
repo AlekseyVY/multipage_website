@@ -62,11 +62,9 @@ body {
 @media (max-width: 768px){
   html {
     width: 76.8rem;
-    height: 331.1rem;
   }
   body {
     width: 76.9rem;
-    height: 331.1rem;
   }
 }
 

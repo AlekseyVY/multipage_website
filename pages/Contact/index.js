@@ -24,7 +24,6 @@ export default function Contact(){
             help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.
           </ContactFormSecText>
           <div>
-
           </div>
         </ContactFormLeft>
         <ContactFormRight>

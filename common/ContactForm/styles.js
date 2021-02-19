@@ -19,6 +19,9 @@ export const InputWrapper = styled.div`
   width: 38rem;
   height: 3.8rem;
   margin-bottom: 2.5rem;
+  @media (max-width: 768px){
+    width: 57.3rem;
+  }
 `
 
 export const LabelWrapper = styled.div`
@@ -42,6 +45,9 @@ export const InputInnerWrapper = styled.input`
     background-color: ${peach} !important;
     -webkit-box-shadow: 0 0 0 50px white inset;
   }
+  @media (max-width: 768px){
+    width: 57.3rem;
+  }
 `
 
 
@@ -55,6 +61,9 @@ export const AreaInnerWrapper = styled.textarea`
   border: none;
   border-bottom: 1px solid ${white};
   color: ${white};
+  @media (max-width: 768px){
+    width: 57.3rem;
+  }
 `
 
 export const ButtonWrapper = styled.div`
