@@ -23,5 +23,10 @@ export const HeroContainer = styled.div`
   text-align: center;
   border-radius: 1.5rem;
   color: ${white};
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: 25.2rem;
+    margin-top: 6.4rem;
+  }
 `
 

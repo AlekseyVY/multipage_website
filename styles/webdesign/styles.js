@@ -7,6 +7,10 @@ export const MainContainer = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 768px){
+    width: 76.8rem;
+    height: 390.8rem;
+  }
 `;
 
 
@@ -16,6 +20,11 @@ export const ProjectCardContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @media (max-width: 768px){
+    width: 69.8rem;
+    margin-top: 12rem;
+    height: 202rem;
+  }
 `
 
 export const LinkToPortfoliContainer = styled.div`
@@ -25,4 +34,8 @@ export const LinkToPortfoliContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 26rem;
+  @media (max-width: 768px){
+    width: 76.8rem;
+    flex-direction: column;
+  }
 `

@@ -21,6 +21,11 @@ export const PortfolioCardContainer = styled.div`
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out;
   }
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: 31rem;
+    flex-direction: row;
+  }
 `
 
 export const TextContainer = styled.div`
@@ -35,6 +40,13 @@ export const TextContainer = styled.div`
   align-items: center;
   text-align: center;
   color: ${black};
+  @media (max-width: 768px){
+    width: 37.9rem;
+    height: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+  }
 `
 
 export const MainText = styled.h3`
