@@ -12,21 +12,13 @@ import {
   ImageContainer, InnerCardContainer, MainContainer, MottoContainer,
   Oval
 } from "../styles/homepage/styles";
-import Image from 'next/image'
 import Button from "../common/Button/Button";
 import PromoCardDesign from "../common/PromoCardDesign/PromoCardDesign";
 import { motion } from 'framer-motion'
-import {useEffect, useState} from "react";
 import HomeSimpleCard from "../common/HomeSimpleCard/HomeSimpleCard";
+import {useEffect} from "react";
 
 export default function Home() {
-  // const [startAnimation, setStartAnimation] = useState(null)
-  //
-  // useEffect(() => {
-  //   let offset = document.getElementById('reveal').getBoundingClientRect()
-  //   console.log(offset.top)
-  // }, [])
-
   return (
     <MainContainer>
       <Header />
@@ -50,9 +42,7 @@ export default function Home() {
         </HeroTextContainer>
       </HeroContainer>
       <CardContainer>
-        <motion.div id='reveal'>
           <PromoCardDesign height={'64rem'} type={"web"}/>
-        </motion.div>
         <InnerCardContainer>
           <div>
             <PromoCardDesign type={"app"}/>

@@ -6,6 +6,12 @@ import {black, lightGrey, peach, white} from "../../styles/colors";
 export const FooterContainer = styled.div`
   width: 144rem;
   position: relative;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 68.7rem;
+    display: flex;
+    align-items: flex-end;
+  }
 `
 
 export const FooterContainerTop = styled.div`
@@ -20,6 +26,14 @@ export const FooterContainerTop = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: 768px) {
+    width: 68.9rem;
+    top: 30%;
+    height: 35rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+  }
 `
 
 export const TopLeftTextContainer = styled.div`
@@ -45,6 +59,9 @@ export const FooterContainerBottom = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px){
+    width: 76.8rem
+  }
 `
 
 export const FooterContainerForNav = styled.div`
@@ -53,6 +70,9 @@ export const FooterContainerForNav = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 6.4rem;
+  @media (max-width: 768px){
+    width: 68.9rem
+  }
 `
 
 export const FooterNavContainer = styled.div`
@@ -61,6 +81,9 @@ export const FooterNavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 6.4rem;
+  @media (max-width: 768px) {
+    width: 68.9rem;
+  }
 `
 
 
@@ -109,6 +132,9 @@ export const Separator = styled.div`
   margin-bottom: 3.1rem;
   padding: 0;
   border-bottom: 0.1rem ${lightGrey} solid;
+  @media (max-width: 768px){
+    width: 68.9rem
+  }
 `
 
 export const BottomTextBlockContainer = styled.div`
@@ -127,6 +153,9 @@ export const BottomTextBlock = styled.div`
   color: ${white};
   display: flex;
   flex-direction: column;
+  @media (max-width: 768px){
+    width: 22.3rem;
+  }
 `
 
 export const Strong = styled.strong`

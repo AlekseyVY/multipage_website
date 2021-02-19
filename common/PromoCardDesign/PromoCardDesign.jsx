@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export default function PromoCardDesign({width = '54.1rem', height = '30.8rem', type = "app"}) {
 
-  const picArr = ['/assets/home/desktop/image-app-design.jpg', '/assets/home/desktop/image-graphic-design.jpg',
-    '/assets/home/desktop/image-web-design-small.jpg', '/assets/home/desktop/image-web-design-large.jpg']
+  const picArr = ['image-app-design.jpg', 'image-graphic-design.jpg',
+    'image-web-design.jpg', 'image-web-design-large.jpg']
   const textArr = ['WEB DESIGN', 'APP DESIGN', 'GRAPHIC DESIGN']
   let bg
   let text

@@ -8,6 +8,10 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 6.4rem;
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: 2.7rem;
+  }
 `
 
 
@@ -50,8 +54,8 @@ export const NavLink = styled.a`
 
 
 export const NavLogo = styled.img`
-  width: 19.6rem;
-  height: 2.4rem;
+  width: 20.2rem;
+  height: 2.7rem;
   &:hover {
     cursor: pointer;
   }
