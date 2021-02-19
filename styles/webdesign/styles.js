@@ -23,7 +23,7 @@ export const ProjectCardContainer = styled.div`
   @media (max-width: 768px){
     width: 69.8rem;
     margin-top: 12rem;
-    height: 202rem;
+    height: 167.8rem;
   }
 `
 
