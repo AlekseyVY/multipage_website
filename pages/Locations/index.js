@@ -9,9 +9,9 @@ export default function Locations() {
     <MainContainer>
       <Header />
       <LocationBlockWrapper>
-        <LocationBlock />
-        <LocationBlock reverse={true}/>
-        <LocationBlock />
+        <LocationBlock name={'canada'}/>
+        <LocationBlock name={'australia'} reverse={true}/>
+        <LocationBlock name={'uk'}/>
       </LocationBlockWrapper>
       <Footer />
     </MainContainer>

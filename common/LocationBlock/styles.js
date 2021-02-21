@@ -6,6 +6,14 @@ export const LocationMainContainer = styled.div`
   width: 111.1rem;
   height: 32.6rem;
   margin-bottom: 3.2rem;
+  @media (max-width: 768px){
+    width: 76.8rem;
+    height: 67.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12rem;
+  }
 `
 
 export const RotationWrapper = styled.div`
@@ -14,6 +22,11 @@ export const RotationWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: ${props => props.type};
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: unset;
+    flex-direction: column;
+  }
 `
 
 export const LocationTextContainer = styled.div`
@@ -24,17 +37,34 @@ export const LocationTextContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: 32.6rem;
+    margin-bottom: 3.1rem;
+  }
 `
 
 export const LocationImageContainer = styled.div`
   width: 35rem;
   height: 32.6rem;
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: 32.6rem;
+    margin-bottom: 12rem;
+  }
 `
 
-export const ImageLoc = styled.img`
+export const ImageLoc = styled.div`
   width: 35rem;
   height: 32.6rem;
   border-radius: 1.5rem;
+  background-image: url(${props => `/assets/locations/desktop/${props.image}`});
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: 32.6rem;
+    background-image: url(${props => `/assets/locations/tablet/${props.image}`});
+  }
+  
 `
 
 export const InnerLocTextContWrap = styled.div`

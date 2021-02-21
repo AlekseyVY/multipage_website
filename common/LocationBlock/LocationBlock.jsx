@@ -6,7 +6,6 @@ import {
   LocationTextContainer,
   RotationWrapper
 } from "./styles";
-const canadaLocImg = '/assets/locations/desktop/image-map-canada.png'
 
 const LocationBlock = ({reverse = false, name = 'canada'}) => {
   const data = {
@@ -18,7 +17,7 @@ const LocationBlock = ({reverse = false, name = 'canada'}) => {
       RightMainText: 'Contact',
       RightSecTextTop: 'P : +1 253-863-8967',
       RightSecTextBot: 'M : contact@designo.co',
-      image: '/assets/locations/desktop/image-map-canada.png'
+      image: 'image-map-canada.png'
     },
     australia: {
       name: 'Australia',
@@ -28,7 +27,7 @@ const LocationBlock = ({reverse = false, name = 'canada'}) => {
       RightMainText: 'Contact',
       RightSecTextTop: 'P : (02) 6720 9092',
       RightSecTextBot: 'M : contact@designo.au',
-      image: '/assets/locations/desktop/image-map-australia.png'
+      image: 'image-map-australia.png'
     },
     uk: {
       name: 'United Kingdom',
@@ -38,7 +37,7 @@ const LocationBlock = ({reverse = false, name = 'canada'}) => {
       RightMainText: 'Contact',
       RightSecTextTop: 'P : 078 3115 1400',
       RightSecTextBot: 'M : contact@designo.uk',
-      image: '/assets/locations/desktop/image-map-united-kingdom.png'
+      image: 'image-map-uk.png'
     }
   }
 
@@ -108,7 +107,7 @@ const LocationBlock = ({reverse = false, name = 'canada'}) => {
           </InnerLocTextContWrap>
         </LocationTextContainer>
         <LocationImageContainer>
-          <ImageLoc src={canadaLocImg} alt={'Canada map location'}/>
+          <ImageLoc image={show.image}/>
         </LocationImageContainer>
       </RotationWrapper>
     </LocationMainContainer>
