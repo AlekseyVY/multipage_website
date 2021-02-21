@@ -16,6 +16,6 @@ export const LocationBlockWrapper = styled.div`
   margin-bottom: 26rem;
   @media (max-width: 768px){
     margin-bottom: 0;
-    margin-top: 6.4rem;
+    margin-top: 12.8rem;
   }
 `

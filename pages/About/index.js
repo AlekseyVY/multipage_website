@@ -16,9 +16,9 @@ import {
   RightInnerPromoContainer
 } from "../../styles/about/styles";
 import LocationSection from "../../common/LocationSection/LocationSection";
-const heroIcon  = '/assets/about/desktop/image-about-hero.jpg'
-const promoPic = '/assets/about/desktop/image-world-class-talent.jpg'
-const PromoPicTwo = '/assets/about/desktop/image-real-deal.jpg'
+const heroIcon  = 'image-about-hero.jpg'
+const promoPic = 'image-world-class-talent.jpg'
+const PromoPicTwo = 'image-real-deal.jpg'
 
 
 export default function About() {
@@ -39,12 +39,12 @@ export default function About() {
           </HeroSecondText>
         </HeroInnerLeft>
         <HeroInnerRight>
-          <HeroImage src={heroIcon} alt={'Hero icon'}/>
+          <HeroImage image={heroIcon}/>
         </HeroInnerRight>
       </HeroContainer>
       <PromoBlockContainer>
         <div>
-          <PromoImage src={promoPic} alt={'Promo Icon'}/>
+          <PromoImage image={promoPic} />
         </div>
         <RightInnerPromoContainer>
           <InnerPromoTextContainer>
@@ -66,7 +66,7 @@ export default function About() {
       <LocationSection />
       <PromoBlockContainerDown>
         <div>
-          <PromoImageTwo src={PromoPicTwo} alt={'Promo Icon'}/>
+          <PromoImageTwo image={PromoPicTwo} />
         </div>
         <RightInnerPromoContainer>
           <InnerPromoTextContainer>

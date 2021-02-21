@@ -23,7 +23,7 @@ export const HeroContainer = styled.div`
   justify-content: space-between;
   border-radius: 1.5rem;
   @media (max-width: 768px){
-    width: 69.8rem;
+    width: 68.9rem;
     height: 63.2rem;
     flex-direction: column-reverse;
   }
@@ -31,7 +31,8 @@ export const HeroContainer = styled.div`
 
 export const HeroInnerRight = styled.div`
   @media (max-width: 768px){
-    width: 69.8rem;
+    width: 68.9rem;
+    height: 31.2rem;
     z-index: 1;
   }
 `
@@ -43,7 +44,8 @@ export const HeroInnerLeft = styled.div`
   justify-content: center;
   align-items: center;
   @media (max-width: 768px){
-    width: 69.8rem;
+    width: 68.9rem;
+    height: 31.2rem;
     z-index: 2;
   }
 `
@@ -52,17 +54,26 @@ export const HeroInnerLeft = styled.div`
 export const HeroMainText = styled.div`
   width: 45.8rem;
   display: flex;
+  @media (max-width: 768px){
+    justify-content: center;
+  }
 `
 
 export const HeroSecondText = styled.div`
   width: 45.8rem;
 `
 
-export const HeroImage = styled.img`
+export const HeroImage = styled.div`
   border-bottom-right-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
-  @media (max-width: 768px){
-    width: 69.8rem;
+  width: 47.6rem;
+  height: 48rem;
+  background-image: url(${props => `/assets/about/desktop/${props.image}`});
+  @media (max-width: 768px) {
+    width: 68.9rem;
+    height: 32rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    background-image: url(${props => `/assets/about/tablet/${props.image}`});
     z-index: 1;
   }
 `
@@ -74,11 +85,25 @@ export const PromoBlockContainer = styled.div`
   border-radius: 1.5rem;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: 73.6rem;
+    flex-direction: column;
+  }
 `
 
-export const PromoImage = styled.img`
+export const PromoImage = styled.div`
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
+  width: 47.6rem;
+  height: 64rem;
+  background-image: url(${props => `/assets/about/desktop/${props.image}`});
+  @media (max-width: 768px){
+    border-radius: 1.5rem 1.5rem 0 0;
+    width: 68.9rem;
+    height: 32rem;
+    background-image: url(${props => `/assets/about/tablet/${props.image}`});
+  }
 `
 
 export const RightInnerPromoContainer = styled.div`
@@ -86,11 +111,21 @@ export const RightInnerPromoContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: 41.6rem;
+  }
+  
 `
 
 export const InnerPromoTextContainer = styled.div`
   width: 44.5rem;
   height: 33.2rem;
+  @media (max-width: 768px){
+    width: 57.2rem;
+    height: 28rem;
+    text-align: center;
+  }
 `
 
 export const PromoMainText = styled.h2`
@@ -109,10 +144,24 @@ export const PromoBlockContainerDown = styled.div`
   flex-direction: row-reverse;
   justify-content: space-between;
   margin-bottom: 26rem;
+  @media (max-width: 768px){
+    width: 68.9rem;
+    height: 73.6rem;
+    flex-direction: column;
+  margin-bottom: 0}
 `
 
-export const PromoImageTwo = styled.img`
+export const PromoImageTwo = styled.div`
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
+  width: 47.6rem;
+  height: 64rem;
+  background-image: url(${props => `/assets/about/desktop/${props.image}`});
+  @media (max-width: 768px){
+    border-radius: 1.5rem 1.5rem 0 0;
+    width: 68.9rem;
+    height: 32rem;
+    background-image: url(${props => `/assets/about/tablet/${props.image}`});
+  }
 `
 
