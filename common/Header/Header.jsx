@@ -1,11 +1,20 @@
-import {NavGroup, NavGroupContainer, NavLink, NavLogo} from "./styles";
-import {FooterNavContainer} from "../Footer/styles";
+import {
+  HamburgerLine,
+  HeaderContainer,
+  MenuToggle, MenuToggleInput,
+  MobileNav,
+  NavGroup,
+  NavGroupContainer,
+  NavLink,
+  NavLogo
+} from "./styles";
 import Link from 'next/link'
+import MobileHamburger from "../MobileHamburger/MobileHamburger";
 
 const Header = () => {
 
   return (
-    <FooterNavContainer>
+    <HeaderContainer>
       <div>
         <Link href={'/'}>
           <NavLogo
@@ -15,6 +24,9 @@ const Header = () => {
         </Link>
       </div>
       <NavGroupContainer>
+        <MobileNav>
+          <MobileHamburger />
+        </MobileNav>
         <NavGroup>
           <li>
             <Link href={'/About'}>
@@ -33,7 +45,7 @@ const Header = () => {
           </li>
         </NavGroup>
       </NavGroupContainer>
-    </FooterNavContainer>
+    </HeaderContainer>
   )
 }
 

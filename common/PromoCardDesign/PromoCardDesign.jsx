@@ -1,4 +1,12 @@
-import {InnerContainer, LinkToProjects, PromoCardContainer, RelativeContainer, RightArrowLink} from "./styles";
+import {
+  InnerContainer,
+  LinkToProjects,
+  PromoCardContainer,
+  PromoH2,
+  PromoText,
+  RelativeContainer,
+  RightArrowLink
+} from "./styles";
 import Link from 'next/link'
 
 export default function PromoCardDesign({width = '54.1rem', height = '30.8rem', type = "app"}) {
@@ -43,12 +51,12 @@ export default function PromoCardDesign({width = '54.1rem', height = '30.8rem', 
         <PromoCardContainer  background={bg}>
           <InnerContainer>
             <div>
-              <h2>{text}</h2>
+              <PromoH2>{text}</PromoH2>
             </div>
             <LinkToProjects>
-              <div>
+              <PromoText>
                 VIEW PROJECTS
-              </div>
+              </PromoText>
               <div>
                 <RightArrowLink src={'/assets/shared/desktop/icon-right-arrow.svg'}  alt={'right arrow'}/>
               </div>

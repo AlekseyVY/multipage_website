@@ -12,6 +12,10 @@ export const FooterContainer = styled.div`
     display: flex;
     align-items: flex-end;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 100.5rem;
+  }
 `
 
 export const FooterContainerTop = styled.div`
@@ -34,22 +38,44 @@ export const FooterContainerTop = styled.div`
     text-align: center;
     justify-content: space-evenly;
   }
+  @media (max-width: 375px){
+    width: 32.7rem;
+    height: 37.9rem;
+    z-index: 50;
+    top: 15%;
+  }
 `
 
 export const TopLeftTextContainer = styled.div`
   width: 45.9rem;
   height: 17.4rem;
   color: ${white};
+  @media (max-width: 375px){
+    width: 27.9rem;
+    height: 16.3rem;
+  }
 `
 
 
 export const H2text = styled.h2`
   margin: 0 0 1.8rem;
+  @media (max-width: 375px){
+    font-size: 3.2rem;
+  }
+  
 `
 
 
 export const FooterBottomInnerContainer = styled.div`
   height: 17.7rem;
+  @media (max-width: 375px){
+    width: 32.7rem;
+    height: 52rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10rem;
+  }
 `
 
 
@@ -62,6 +88,11 @@ export const FooterContainerBottom = styled.div`
   @media (max-width: 768px){
     width: 76.8rem
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 81.5rem;
+    position: relative;
+  }
 `
 
 export const FooterContainerForNav = styled.div`
@@ -73,16 +104,12 @@ export const FooterContainerForNav = styled.div`
   @media (max-width: 768px){
     width: 68.9rem
   }
-`
-
-export const FooterNavContainer = styled.div`
-  width: 111.1rem;
-  height: 2.4rem;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 6.4rem;
-  @media (max-width: 768px) {
-    width: 68.9rem;
+  @media (max-width: 375px){
+    width: 32.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `
 
@@ -91,6 +118,9 @@ export const FooterNavContainer = styled.div`
 export const FooterNavGroupContainer = styled.div`
   width: 37rem;
   height: 1.4rem;
+  @media (max-width: 375px){
+    width: 32.7rem;
+  }
 `
 
 export const FooterNavGroup = styled.ul`
@@ -101,6 +131,14 @@ export const FooterNavGroup = styled.ul`
   margin: 0;
   padding: 0;
   color: ${white};
+  @media (max-width: 375px){
+    flex-direction: column;
+    margin-top: 3.2rem;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+    height: 10.6rem;
+  }
 `
 
 
@@ -135,16 +173,38 @@ export const Separator = styled.div`
   @media (max-width: 768px){
     width: 68.9rem
   }
+  @media (max-width: 375px){
+    position: absolute;
+    width: 32.7rem;
+    top: 32%;
+    border-bottom: 0.1rem ${lightGrey} solid;
+    margin-bottom: 3.2rem;
+    margin-top: 3.2rem;
+  }
 `
 
 export const BottomTextBlockContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 375px){
+    flex-direction: column;
+    margin-top: 4rem;
+  }
 `
 
 export const BottomInnerTextBlockContainer = styled.div`
   display: flex;
+  @media (max-width: 375px){
+    flex-direction: column;
+    justify-content: space-between;
+    height: 19.6rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+  }
 `
 
 export const BottomTextBlock = styled.div`
@@ -155,6 +215,9 @@ export const BottomTextBlock = styled.div`
   flex-direction: column;
   @media (max-width: 768px){
     width: 22.3rem;
+  }
+  @media (max-width: 375px){
+    margin-top: 4rem;
   }
 `
 
@@ -169,6 +232,9 @@ export const SocialContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: 375px){
+    margin-top: 3.2rem;
+  }
 `;
 
 export const SocialElement = styled.div`
@@ -180,6 +246,9 @@ export const SocialElement = styled.div`
 export const FooterLink = styled.div`
   &:hover {
     cursor: pointer;
+  }
+  @media (max-width: 375px){
+    margin-bottom: 3.2rem;
   }
 `
 

@@ -68,3 +68,12 @@ body {
   }
 }
 
+@media (max-width: 375px){
+  html {
+    width: 37.5rem;
+  }
+  body {
+    width: 37.5rem;
+  }
+}
+

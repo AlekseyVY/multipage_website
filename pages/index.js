@@ -14,9 +14,7 @@ import {
 } from "../styles/homepage/styles";
 import Button from "../common/Button/Button";
 import PromoCardDesign from "../common/PromoCardDesign/PromoCardDesign";
-import { motion } from 'framer-motion'
 import HomeSimpleCard from "../common/HomeSimpleCard/HomeSimpleCard";
-import {useEffect} from "react";
 
 export default function Home() {
   return (

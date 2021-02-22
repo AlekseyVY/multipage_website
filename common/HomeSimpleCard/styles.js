@@ -13,6 +13,10 @@ export const HomeSimpleCardContainer = styled.div`
     width: 100%;
     height: 20.2rem;
   }
+  @media (max-width: 375px){
+    width: 32.7rem;
+    flex-direction: column;
+  }
 `
 
 

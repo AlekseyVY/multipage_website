@@ -8,9 +8,13 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 6.4rem;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     width: 68.9rem;
-    height: 2.7rem;
+  }
+  @media (max-width: 375px) {
+    width: 37.5rem;
+    justify-content: space-around;
+    margin-top: 3.5rem;
   }
 `
 
@@ -19,7 +23,18 @@ export const HeaderContainer = styled.div`
 export const NavGroupContainer = styled.div`
   width: 37rem;
   height: 1.4rem;
+  @media (max-width: 375px){
+    width: 2.4rem;
+  }
 `
+
+export const MobileNav = styled.div`
+  display: none;
+  @media (max-width: 375px) {
+    display: block;
+  }
+`
+
 
 export const NavGroup = styled.ul`
   list-style: none;
@@ -28,6 +43,9 @@ export const NavGroup = styled.ul`
   align-items: center;
   margin: 0;
   padding: 0;
+  @media (max-width: 375px) {
+    display: none;
+  }
 `
 
 

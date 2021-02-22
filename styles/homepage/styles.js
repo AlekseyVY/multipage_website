@@ -11,6 +11,10 @@ export const MainContainer = styled.div`
     height: 331.1rem;
     width: 76.8rem;
   }
+  @media (max-width: 375px){
+    height: 449.9rem;
+    width: 37.5rem;
+  }
 `;
 
 export const HeroContainer = styled.div`
@@ -24,6 +28,11 @@ export const HeroContainer = styled.div`
     width: 68.9rem;
     height: 84.3rem;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 84.3rem;  
+    border-radius: 0;
+  }
 `
 
 
@@ -35,6 +44,10 @@ export const Oval = styled.div`
   position: absolute;
   left: 28.3%;
   top: 10.7%;
+  @media (max-width: 375px){
+    left: -1%;
+    top: 11.5%;
+  }
 `
 
 
@@ -44,6 +57,11 @@ export const ImageContainer = styled.div`
   top: -6%;
   @media (max-width: 768px) {
     left: 5%;
+    top: 35%;
+    z-index: 1;
+  }
+  @media (max-width: 375px) {
+    left: -33%;
     top: 35%;
     z-index: 1;
   }
@@ -71,6 +89,12 @@ export const HeroTextContainer = styled.div`
     margin-top: 6rem;
     text-align: center;
   }
+  @media (max-width: 375px){
+    width: 32.7rem;
+    height: 31.2rem;
+    margin-top: 8rem;
+    margin-left: 2.4rem;
+  }
 `
 
 export const HeroButtonContainer = styled.div`
@@ -80,10 +104,20 @@ export const HeroButtonContainer = styled.div`
 
 export const HeroPTextContainer = styled.div`
   width: 44.5rem;
+  @media (max-width: 375px){
+    width: 32.7rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
 `
 
 export const H1Hero = styled.h1`
   margin-top: 0;
+  @media (max-width: 375px){
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    letter-spacing: 0;
+  }
 `
 
 
@@ -96,6 +130,10 @@ export const CardContainer = styled.div`
   @media (max-width: 768px){
     width: 68.9rem;
     flex-direction: column;
+  }
+  @media (max-width: 375px){
+    width: 37.5rem;  
+    height: 79.8rem;
   }
 `
 
@@ -118,5 +156,11 @@ export const MottoContainer = styled.div`
     flex-direction: column;
     height: 67rem;
     margin-bottom: 0;
+  }
+  @media (max-width: 375px){
+    width: 32.7rem;
+    height: 129.6rem;
+    margin-bottom: 30rem;
+    margin-top: 3.2rem;
   }
 `
