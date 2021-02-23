@@ -18,6 +18,95 @@ export const FooterContainer = styled.div`
   }
 `
 
+export const FooterOval_1 = styled.div`
+  width: 29.2rem;
+  height: 29.9rem;
+  border-radius: 90%;
+  background: linear-gradient(0deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  position: absolute;
+  right: 0%;
+  top: -50%;
+  z-index: -1;
+  @media (max-width: 768px) {
+    right: -20%;
+    top: -40%;
+  }
+  @media (max-width: 375px) {
+    right: -10%;
+    top: -30%;
+  }
+`
+export const FooterOval_2 = styled.div`
+  width: 29.2rem;
+  height: 29.9rem;
+  border-radius: 90%;
+  background: linear-gradient(90deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  right: 26.2%;
+  top: -50%;
+  z-index: -1;
+  position: absolute;
+  @media (max-width: 768px) {
+    right: 22.4%;
+    top: -40%;
+  }
+  @media (max-width: 375px) {
+    display: none;
+  }
+`
+export const FooterOval_3 = styled.div`
+  width: 29.2rem;
+  height: 29.9rem;
+  border-radius: 90%;
+  background: linear-gradient(270deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  right: 26.2%;
+  top: 52%;
+  z-index: -1;
+  position: absolute;
+  @media (max-width: 768px) {
+    right: 22.4%;
+    top: 45%;
+  }
+  @media (max-width: 375px) {
+    right: 80%;
+    top: 50%;
+  }
+`
+export const FooterOval_4 = styled.div`
+  width: 29.2rem;
+  height: 29.9rem;
+  border-radius: 90%;
+  background: linear-gradient(0deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  right: 0%;
+  top: 52%;
+  z-index: -1;
+  position: absolute;
+  @media (max-width: 768px) {
+    right: -20%;
+    top: 45%;
+  }
+  @media (max-width: 375px) {
+    right: -10%;
+    top: 50%;
+  }
+`
+export const FooterOval_5 = styled.div`
+  width: 29.2rem;
+  height: 29.9rem;
+  border-radius: 90%;
+  background: linear-gradient(180deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  right: 52.5%;
+  top: 52%;
+  z-index: -1;
+  position: absolute;
+  @media (max-width: 768px) {
+    right: 64.7%;
+    top: 45%;
+  }
+  @media (max-width: 375px) {
+    display: none;
+  }
+`
+
 export const FooterContainerTop = styled.div`
   width: 111.1rem;
   height: 29.2rem;
@@ -30,6 +119,7 @@ export const FooterContainerTop = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
   @media (max-width: 768px) {
     width: 68.9rem;
     top: 30%;

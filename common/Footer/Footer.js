@@ -1,12 +1,26 @@
 import {
   BottomInnerTextBlockContainer,
-  BottomTextBlock, BottomTextBlockContainer,
+  BottomTextBlock,
+  BottomTextBlockContainer,
   FooterBottomInnerContainer,
   FooterContainer,
-  FooterContainerBottom, FooterContainerForNav,
-  FooterContainerTop, FooterLink, FooterNavGroup,
-  FooterNavGroupContainer, FooterNavLink,
-  H2text, Separator, SocialContainer, SocialElement, Strong,
+  FooterContainerBottom,
+  FooterContainerForNav,
+  FooterContainerTop,
+  FooterLink,
+  FooterNavGroup,
+  FooterNavGroupContainer,
+  FooterNavLink,
+  FooterOval_1,
+  FooterOval_2,
+  FooterOval_3,
+  FooterOval_4,
+  FooterOval_5,
+  H2text,
+  Separator,
+  SocialContainer,
+  SocialElement,
+  Strong,
   TopLeftTextContainer
 } from "./styles";
 import Button from "../Button/Button";
@@ -20,6 +34,11 @@ export default function Footer({top = true}){
     <FooterContainer>
       { top ?
         <FooterContainerTop>
+          <FooterOval_1/>
+          <FooterOval_2/>
+          <FooterOval_3/>
+          <FooterOval_4/>
+          <FooterOval_5/>
           <TopLeftTextContainer>
             <div>
               <H2text>

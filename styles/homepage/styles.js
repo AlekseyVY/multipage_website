@@ -28,6 +28,9 @@ export const BigOval = styled.div`
   top: 18%;
   left: 0%;
   z-index: -1;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const BigOvalCopy = styled.div`
@@ -40,6 +43,9 @@ export const BigOvalCopy = styled.div`
   top: 63%;
   right: 0%;
   z-index: -1;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const HeroContainer = styled.div`
@@ -49,6 +55,7 @@ export const HeroContainer = styled.div`
   border-radius: 1.5rem;
   position: relative;
   overflow: hidden;
+  z-index: 1;
   @media (max-width: 768px){
     width: 68.9rem;
     height: 84.3rem;
@@ -70,6 +77,11 @@ export const Oval = styled.div`
   opacity: ;
   right: 0%;
   top: 0%;
+  z-index: -1;
+  @media (max-width: 768px){
+    right: -18%;
+    top: 11%;
+  }
   @media (max-width: 375px){
     left: -1%;
     top: 11.5%;
