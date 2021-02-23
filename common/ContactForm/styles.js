@@ -28,6 +28,10 @@ export const LabelWrapper = styled.div`
   position: absolute;
   left: 5%;
   top: -50%;
+  @media (max-width: 375px){
+    left: 44%;
+    top: -55%;
+  }
 `
 
 

@@ -10,6 +10,10 @@ export const MainContainer = styled.div`
     width: 76.8rem;
     height: 323.7rem;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 344.3rem;
+  }
 `;
 
 export const LocationBlockWrapper = styled.div`

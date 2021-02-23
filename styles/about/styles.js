@@ -11,6 +11,10 @@ export const MainContainer = styled.div`
     width: 76.8rem;
     height: 466.3rem;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 509.4rem;
+  }
 `;
 
 
@@ -27,6 +31,11 @@ export const HeroContainer = styled.div`
     height: 63.2rem;
     flex-direction: column-reverse;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 71.5rem;
+    border-radius: unset;
+  }
 `
 
 export const HeroInnerRight = styled.div`
@@ -34,6 +43,9 @@ export const HeroInnerRight = styled.div`
     width: 68.9rem;
     height: 31.2rem;
     z-index: 1;
+  }
+  @media (max-width: 375px){
+    width: 37.5rem;
   }
 `
 
@@ -48,6 +60,10 @@ export const HeroInnerLeft = styled.div`
     height: 31.2rem;
     z-index: 2;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 39.5rem;
+  }
 `
 
 
@@ -57,10 +73,21 @@ export const HeroMainText = styled.div`
   @media (max-width: 768px){
     justify-content: center;
   }
+  @media (max-width: 375px){
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    width: 32.7rem;
+  }
 `
 
 export const HeroSecondText = styled.div`
   width: 45.8rem;
+  @media (max-width: 375px){
+    width: 32.7rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
 `
 
 export const HeroImage = styled.div`
@@ -76,6 +103,11 @@ export const HeroImage = styled.div`
     background-image: url(${props => `/assets/about/tablet/${props.image}`});
     z-index: 1;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 32rem;
+    background-image: url(${props => `/assets/about/mobile/${props.image}`});
+  }
 `
 
 export const PromoBlockContainer = styled.div`
@@ -89,6 +121,11 @@ export const PromoBlockContainer = styled.div`
     width: 68.9rem;
     height: 73.6rem;
     flex-direction: column;
+  }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 86.5rem;
+    border-radius: unset;
   }
 `
 
@@ -104,6 +141,12 @@ export const PromoImage = styled.div`
     height: 32rem;
     background-image: url(${props => `/assets/about/tablet/${props.image}`});
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 32rem;
+    background-image: url(${props => `/assets/about/mobile/${props.image}`});
+    border-radius: unset;
+  }
 `
 
 export const RightInnerPromoContainer = styled.div`
@@ -115,7 +158,10 @@ export const RightInnerPromoContainer = styled.div`
     width: 68.9rem;
     height: 41.6rem;
   }
-  
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 54.5rem;
+  }
 `
 
 export const InnerPromoTextContainer = styled.div`
@@ -126,11 +172,19 @@ export const InnerPromoTextContainer = styled.div`
     height: 28rem;
     text-align: center;
   }
+  @media (max-width: 375px){
+    width: 32.7rem;
+    height: 38.5rem;
+  }
 `
 
 export const PromoMainText = styled.h2`
   color: ${peach};
   margin-top: 0;
+  @media (max-width: 375px){
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
 `
 
 
@@ -147,8 +201,13 @@ export const PromoBlockContainerDown = styled.div`
   @media (max-width: 768px){
     width: 68.9rem;
     height: 73.6rem;
-    flex-direction: column;
-  margin-bottom: 0}
+    flex-direction: column;  
+    margin-bottom: 0
+  }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 86.5rem;
+  }
 `
 
 export const PromoImageTwo = styled.div`
@@ -163,5 +222,19 @@ export const PromoImageTwo = styled.div`
     height: 32rem;
     background-image: url(${props => `/assets/about/tablet/${props.image}`});
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 32rem;
+    background-image: url(${props => `/assets/about/mobile/${props.image}`});
+    border-radius: unset;
+  }
 `
 
+export const PromoSecondText = styled.div`
+  @media (max-width: 375px){
+    width: 32.7rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+`

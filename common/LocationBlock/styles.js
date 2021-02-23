@@ -14,6 +14,10 @@ export const LocationMainContainer = styled.div`
     justify-content: center;
     margin-bottom: 12rem;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 71.4rem;
+  }
 `
 
 export const RotationWrapper = styled.div`
@@ -26,6 +30,10 @@ export const RotationWrapper = styled.div`
     width: 68.9rem;
     height: unset;
     flex-direction: column;
+  }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    flex-direction: column-reverse;
   }
 `
 
@@ -42,6 +50,11 @@ export const LocationTextContainer = styled.div`
     height: 32.6rem;
     margin-bottom: 3.1rem;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 39.4rem;
+    border-radius: unset;
+  }
 `
 
 export const LocationImageContainer = styled.div`
@@ -51,6 +64,11 @@ export const LocationImageContainer = styled.div`
     width: 68.9rem;
     height: 32.6rem;
     margin-bottom: 12rem;
+  }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 32rem;
+    margin: 0;
   }
 `
 
@@ -64,6 +82,11 @@ export const ImageLoc = styled.div`
     height: 32.6rem;
     background-image: url(${props => `/assets/locations/tablet/${props.image}`});
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 32rem;
+    border-radius: unset;
+  }
   
 `
 
@@ -71,10 +94,21 @@ export const InnerLocTextContWrap = styled.div`
   width: 54rem;
   display: flex;
   flex-direction: column;
+  @media (max-width: 375px){
+    width: 32.7rem;
+    height: 23.4rem;
+    text-align: center;
+  }
 `
 
 export const InnerLocTextBlockWrapper = styled.div`
   display: flex;
+  @media (max-width: 375px){
+    height: 18rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 `
 
 export const InnerLocTextBlock = styled.div`

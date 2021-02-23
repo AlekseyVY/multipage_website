@@ -1,4 +1,4 @@
-import {HeroContainer, InnerHeroContainer, MainText} from "./styles";
+import {HeroContainer, InnerHeroContainer, MainText, TextBlock} from "./styles";
 
 
 const SimpleHero = ({mainText = '', textTop = '', textBot = ''}) => {
@@ -10,12 +10,12 @@ const SimpleHero = ({mainText = '', textTop = '', textBot = ''}) => {
           <MainText>{mainText}</MainText>
         </div>
         <div>
-          <div>
+          <TextBlock>
             {textTop}
-          </div>
-          <div>
+          </TextBlock>
+          <TextBlock>
             {textBot}
-          </div>
+          </TextBlock>
         </div>
       </InnerHeroContainer>
     </HeroContainer>

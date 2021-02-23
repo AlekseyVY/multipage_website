@@ -14,6 +14,10 @@ export const LocationContainer = styled.div`
     justify-content: space-between;
     align-items: center;
   }
+  @media (max-width: 375px){
+    width: 35rem;
+    height: 118.8rem;
+  }
 
 `
 

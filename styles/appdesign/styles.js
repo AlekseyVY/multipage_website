@@ -11,6 +11,10 @@ export const MainContainer = styled.div`
     width: 76.8rem;
     height: 356.6rem;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 478.3rem;
+  }
 `;
 
 
@@ -25,12 +29,19 @@ export const CommonPortfolioCardContainerWrapper = styled.div`
     margin-top: 12rem;
     height: 167.8rem;
   }
+  @media (max-width: 375px){
+    width: 32.7rem;
+    height: 255rem;
+  }
 `
 
 export const DummyCard = styled.div`
   width: 35rem;
   height: 47.8rem;
   @media (max-width: 768px){  
+    display: none;
+  }
+  @media (max-width: 375px){
     display: none;
   }
 `
@@ -46,5 +57,8 @@ export const LinkContainer = styled.div`
   @media (max-width: 768px){
     flex-direction: column;
     width: 68.9rem;
+  }
+  @media (max-width: 375px){
+    width: 32.7rem;
   }
 `

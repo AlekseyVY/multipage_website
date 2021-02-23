@@ -11,6 +11,10 @@ export const MainContainer = styled.div`
     width: 76.8rem;
     height: 390.8rem;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 530.1rem;
+  }
 `;
 
 
@@ -25,6 +29,10 @@ export const ProjectCardContainer = styled.div`
     margin-top: 12rem;
     height: 202rem;
   }
+  @media (max-width: 375px){
+    width: 32.7rem;
+    height: 306.8rem;
+  }
 `
 
 export const LinkToPortfoliContainer = styled.div`
@@ -37,5 +45,9 @@ export const LinkToPortfoliContainer = styled.div`
   @media (max-width: 768px){
     width: 76.8rem;
     flex-direction: column;
+  }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    margin-bottom: 36rem;
   }
 `

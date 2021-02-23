@@ -11,6 +11,10 @@ export const InnerHeroContainer = styled.div`
 
 export const MainText = styled.h1`
   margin-top: 0;
+  @media (max-width: 375px){
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
 `
 
 export const HeroContainer = styled.div`
@@ -28,5 +32,16 @@ export const HeroContainer = styled.div`
     height: 25.2rem;
     margin-top: 6.4rem;
   }
+  @media (max-width: 375px){
+    width: 37.5rem;
+    height: 32rem;
+    border-radius: unset;
+  }
 `
 
+export const TextBlock = styled.div`
+  @media (max-width: 375px){
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+`
