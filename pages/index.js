@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from "../common/Header/Header";
 import Footer from "../common/Footer/Footer";
 import {
+  BigOval, BigOvalCopy,
   CardContainer,
   H1Hero,
   HeroButtonContainer,
@@ -19,6 +20,8 @@ import HomeSimpleCard from "../common/HomeSimpleCard/HomeSimpleCard";
 export default function Home() {
   return (
     <MainContainer>
+      <BigOval/>
+      <BigOvalCopy/>
       <Header />
       <HeroContainer>
         <Oval/>

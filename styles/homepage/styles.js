@@ -7,6 +7,7 @@ export const MainContainer = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  position: relative;
   @media (max-width: 768px){
     height: 331.1rem;
     width: 76.8rem;
@@ -16,6 +17,30 @@ export const MainContainer = styled.div`
     width: 37.5rem;
   }
 `;
+
+export const BigOval = styled.div`
+  position: absolute;
+  width: 100.6rem;
+  height: 59.4rem;
+  background: #F1F3F5;
+  border-radius: 297% 297% 297% 0;
+  opacity: 50.23%;
+  top: 18%;
+  left: 0%;
+  z-index: -1;
+`
+
+export const BigOvalCopy = styled.div`
+  position: absolute;
+  width: 100.6rem;
+  height: 59.4rem;
+  background: #F1F3F5;
+  border-radius: 297% 297% 297% 0;
+  transform: rotate(180deg);
+  top: 63%;
+  right: 0%;
+  z-index: -1;
+`
 
 export const HeroContainer = styled.div`
   width: 111.1rem;
@@ -42,8 +67,9 @@ export const Oval = styled.div`
   border-radius: 90%;
   background: linear-gradient(0deg, rgba(93, 2, 2, 0.01) 0%, rgba(93, 2, 2, 0.30) 100%);
   position: absolute;
-  left: 28.3%;
-  top: 10.7%;
+  opacity: ;
+  right: 0%;
+  top: 0%;
   @media (max-width: 375px){
     left: -1%;
     top: 11.5%;
