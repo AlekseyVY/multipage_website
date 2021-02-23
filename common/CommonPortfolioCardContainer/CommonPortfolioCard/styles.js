@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {black, peach} from "../../../styles/colors";
+import {black, peach, white} from "../../../styles/colors";
 
 
 export const PortfolioCardContainer = styled.div`
@@ -20,6 +20,14 @@ export const PortfolioCardContainer = styled.div`
     -moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out;
+  }
+  &:hover div{
+    cursor: pointer;
+    background: ${peach};
+    color: ${white};
+  }
+  &:hover h3{
+    color: ${white};
   }
   @media (max-width: 768px){
     width: 68.9rem;
@@ -45,6 +53,14 @@ export const TextContainer = styled.div`
   align-items: center;
   text-align: center;
   color: ${black};
+  &:hover {
+    cursor: pointer;
+    background: ${peach};
+    color: ${white};
+  }
+  &:hover h3{
+    color: ${white};
+  }
   @media (max-width: 768px) {
     width: 37.9rem;
     height: 100%;

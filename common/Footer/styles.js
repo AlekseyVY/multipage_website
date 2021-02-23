@@ -238,8 +238,10 @@ export const SocialContainer = styled.div`
 `;
 
 export const SocialElement = styled.div`
+  opacity: 80%;
   &:hover {
     cursor: pointer;
+    opacity: unset;
   }
 `
 

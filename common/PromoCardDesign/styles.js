@@ -27,7 +27,9 @@ export const PromoCardContainer = styled.div`
   border-radius: 1.5rem;
   &:hover {
     cursor: pointer;
-    opacity: 50%;
+    -webkit-box-shadow: inset 0 0 0 300px rgba(231,129,107,0.5);
+    -moz-box-shadow: inset 0 0 0 300px rgba(231,129,107,0.5);
+    box-shadow: inset 0 0 0 300px rgba(231,129,107,0.5);
   }
   @media (max-width: 768px){
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${props => `/assets/home/tablet/${props.background}`});
