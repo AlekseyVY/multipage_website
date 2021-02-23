@@ -7,6 +7,7 @@ export const MainContainer = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  position: relative;
   @media (max-width: 768px){
     width: 76.8rem;
     height: 390.8rem;
@@ -16,6 +17,21 @@ export const MainContainer = styled.div`
     height: 530.1rem;
   }
 `;
+
+export const BigOvalWeb = styled.div`
+  position: absolute;
+  width: 100.6rem;
+  height: 59.4rem;
+  background: #F1F3F5;
+  border-radius: 297% 297% 297% 0;
+  opacity: 50.23%;
+  top: 11%;
+  left: 0%;
+  z-index: -3;
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
 
 
 export const ProjectCardContainer = styled.div`

@@ -9,11 +9,13 @@ import {
 import SimpleHero from "../../common/SimpleHero/SimpleHero";
 import CommonPortfolioCardContainer from "../../common/CommonPortfolioCardContainer/CommonPortfolioCardContainer";
 import PromoCardDesign from "../../common/PromoCardDesign/PromoCardDesign";
+import {BigOvalWeb} from "../../styles/webdesign/styles";
 
 
 const AppDesign = () => {
   return (
     <MainContainer>
+      <BigOvalWeb/>
       <Header />
       <SimpleHero mainText={'App Design'} textTop={'Our mobile designs bring intuitive digital solutions'} textBot={' to your customers right at their fingertips.'}/>
       <CommonPortfolioCardContainerWrapper>

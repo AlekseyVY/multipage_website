@@ -7,6 +7,7 @@ export const MainContainer = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  position: relative;
   @media (max-width: 768px){
     width: 76.8rem;
     height: 356.6rem;

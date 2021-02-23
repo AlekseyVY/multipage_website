@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {lightPeach, peach} from "../colors";
+import {lightPeach, peach, white} from "../colors";
 
 export const MainContainer = styled.div`
   display: flex;
@@ -26,6 +26,10 @@ export const HeroContainer = styled.div`
   background: ${lightPeach};
   justify-content: space-between;
   border-radius: 1.5rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  color: ${white};
   @media (max-width: 768px){
     width: 68.9rem;
     height: 63.2rem;
@@ -35,6 +39,27 @@ export const HeroContainer = styled.div`
     width: 37.5rem;
     height: 71.5rem;
     border-radius: unset;
+  }
+`
+
+export const Oval_1 = styled.div`
+  width: 64rem;
+  height: 64rem;
+  border-radius: 90%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0%;
+  left: 0%;
+  background: linear-gradient(90deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  @media (max-width: 768px){
+    bottom: 12%;
+    left: -20%;
+}
+  @media (max-width: 375px){
+    width: 29.2rem;
+    height: 29.2rem;
+    bottom: 30%;
+    left: 22%;
   }
 `
 
@@ -117,6 +142,9 @@ export const PromoBlockContainer = styled.div`
   border-radius: 1.5rem;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
   @media (max-width: 768px){
     width: 68.9rem;
     height: 73.6rem;
@@ -126,6 +154,45 @@ export const PromoBlockContainer = styled.div`
     width: 37.5rem;
     height: 86.5rem;
     border-radius: unset;
+  }
+`
+
+export const PromorOval_1 = styled.div`
+  width: 29.2rem;
+  height: 29.2rem;
+  border-radius: 90%;
+  position: absolute;
+  opacity: 6%;
+  background: linear-gradient(-90deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  bottom: 0%;
+  right: 19%;
+  z-index: -2;
+  @media (max-width: 768px){
+    bottom: 10%;
+    left: 50%;
+  }
+  @media (max-width: 375px){
+    top: 38%;
+    left: 15%;
+  }
+`
+export const PromorOval_2 = styled.div`
+  width: 29.2rem;
+  height: 29.2rem;
+  border-radius: 90%;
+  position: absolute;
+  opacity: 6%;
+  background: linear-gradient(0deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  bottom: 0%;
+  right: 45%;
+  z-index: -2;
+  @media (max-width: 768px){
+    bottom: 10%;
+    left: 7.8%;
+  }
+  @media (max-width: 375px){
+    bottom: -5%;
+    left: 15%;
   }
 `
 
@@ -198,6 +265,9 @@ export const PromoBlockContainerDown = styled.div`
   flex-direction: row-reverse;
   justify-content: space-between;
   margin-bottom: 26rem;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
   @media (max-width: 768px){
     width: 68.9rem;
     height: 73.6rem;
@@ -207,6 +277,45 @@ export const PromoBlockContainerDown = styled.div`
   @media (max-width: 375px){
     width: 37.5rem;
     height: 86.5rem;
+  }
+`
+
+export const PromorOval_3 = styled.div`
+  width: 29.2rem;
+  height: 29.2rem;
+  border-radius: 90%;
+  position: absolute;
+  opacity: 6%;
+  background: linear-gradient(-90deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  bottom: 0%;
+  left: 26.5%;
+  z-index: -2;
+  @media (max-width: 768px){
+    bottom: 10%;
+    left: 50%;
+  }
+  @media (max-width: 375px){
+    top: 38%;
+    left: 15%;
+  }
+`
+export const PromorOval_4 = styled.div`
+  width: 29.2rem;
+  height: 29.2rem;
+  border-radius: 90%;
+  position: absolute;
+  opacity: 6%;
+  background: linear-gradient(0deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
+  bottom: 0%;
+  left: 0%;
+  z-index: -2;
+  @media (max-width: 768px){
+    bottom: 10%;
+    left: 7.5%;
+  }
+  @media (max-width: 375px){
+    bottom: -5%;
+    left: 15%;
   }
 `
 

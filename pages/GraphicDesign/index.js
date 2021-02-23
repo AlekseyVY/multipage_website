@@ -4,11 +4,13 @@ import SimpleHero from "../../common/SimpleHero/SimpleHero";
 import CommonPortfolioCardContainer from "../../common/CommonPortfolioCardContainer/CommonPortfolioCardContainer";
 import {LinkToPortfoliContainer, MainContainer, ProjectCardContainer} from "../../styles/graphicdesign/styles";
 import PromoCardDesign from "../../common/PromoCardDesign/PromoCardDesign";
+import {BigOvalWeb} from "../../styles/webdesign/styles";
 
 
 export default function Index() {
   return (
     <MainContainer>
+      <BigOvalWeb/>
       <Header />
       <SimpleHero mainText={'Graphic Design'} textTop={'We deliver eye-catching branding materials that are '} textBot={'tailored to meet your business objectives.'}/>
       <ProjectCardContainer>

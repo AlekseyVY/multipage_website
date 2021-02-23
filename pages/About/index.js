@@ -8,11 +8,11 @@ import {
   HeroMainText,
   HeroSecondText,
   InnerPromoTextContainer,
-  MainContainer,
+  MainContainer, Oval_1,
   PromoBlockContainer,
   PromoBlockContainerDown,
   PromoImage, PromoImageTwo,
-  PromoMainText, PromoSecondText,
+  PromoMainText, PromorOval_1, PromorOval_2, PromorOval_3, PromorOval_4, PromoSecondText,
   RightInnerPromoContainer
 } from "../../styles/about/styles";
 import LocationSection from "../../common/LocationSection/LocationSection";
@@ -26,6 +26,7 @@ export default function About() {
     <MainContainer>
       <Header />
       <HeroContainer>
+        <Oval_1/>
         <HeroInnerLeft>
           <HeroMainText>
             <h1>
@@ -43,6 +44,8 @@ export default function About() {
         </HeroInnerRight>
       </HeroContainer>
       <PromoBlockContainer>
+        <PromorOval_1/>
+        <PromorOval_2/>
         <div>
           <PromoImage image={promoPic} />
         </div>
@@ -65,6 +68,8 @@ export default function About() {
       </PromoBlockContainer>
       <LocationSection />
       <PromoBlockContainerDown>
+        <PromorOval_3/>
+        <PromorOval_4/>
         <div>
           <PromoImageTwo image={PromoPicTwo} />
         </div>
