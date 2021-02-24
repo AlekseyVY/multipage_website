@@ -222,6 +222,7 @@ export const FooterNavGroup = styled.ul`
   padding: 0;
   color: ${white};
   @media (max-width: 375px){
+    width: 32.7rem;
     flex-direction: column;
     margin-top: 3.2rem;
     font-size: 1.4rem;
@@ -278,6 +279,7 @@ export const BottomTextBlockContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   @media (max-width: 375px){
+    width: 32.7rem;
     flex-direction: column;
     margin-top: 4rem;
   }
@@ -286,7 +288,9 @@ export const BottomTextBlockContainer = styled.div`
 export const BottomInnerTextBlockContainer = styled.div`
   display: flex;
   @media (max-width: 375px){
+    width: 32.7rem;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     height: 19.6rem;
     margin-bottom: 4rem;
@@ -308,6 +312,7 @@ export const BottomTextBlock = styled.div`
   }
   @media (max-width: 375px){
     margin-top: 4rem;
+    width: 32.7rem;
   }
 `
 
@@ -324,6 +329,8 @@ export const SocialContainer = styled.div`
   align-items: center;
   @media (max-width: 375px){
     margin-top: 3.2rem;
+    justify-content: space-evenly;
+    width: 32.7rem;
   }
 `;
 

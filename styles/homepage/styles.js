@@ -31,6 +31,9 @@ export const BigOval = styled.div`
   @media (max-width: 768px) {
     display: none;
   }
+  @media (max-width: 375px) {
+    display: none;
+  }
 `
 
 export const BigOvalCopy = styled.div`
@@ -43,7 +46,7 @@ export const BigOvalCopy = styled.div`
   top: 63%;
   right: 0%;
   z-index: -1;
-  @media (max-width: 768px) {
+  @media (max-width: 375px) {
     display: none;
   }
 `
@@ -177,7 +180,6 @@ export const CardContainer = styled.div`
 
 export const InnerCardContainer = styled.div`
   display: flex;
-  height: 100%;
   flex-direction: column;
   justify-content: space-between;
 `
