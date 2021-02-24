@@ -50,6 +50,7 @@ export const Oval_1 = styled.div`
   z-index: -1;
   bottom: 0%;
   left: 0%;
+  opacity: 31%;
   background: linear-gradient(90deg, rgba(93,2,2,0), rgba(93,2,2,0.5));
   @media (max-width: 768px){
     bottom: 12%;

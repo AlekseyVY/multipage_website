@@ -27,6 +27,7 @@ export const FooterOval_1 = styled.div`
   right: 0%;
   top: -50%;
   z-index: -1;
+  opacity: 31%;
   @media (max-width: 768px) {
     right: -20%;
     top: -40%;
@@ -45,6 +46,7 @@ export const FooterOval_2 = styled.div`
   top: -50%;
   z-index: -1;
   position: absolute;
+  opacity: 31%;
   @media (max-width: 768px) {
     right: 22.4%;
     top: -40%;
@@ -62,6 +64,7 @@ export const FooterOval_3 = styled.div`
   top: 52%;
   z-index: -1;
   position: absolute;
+  opacity: 31%;
   @media (max-width: 768px) {
     right: 22.4%;
     top: 45%;
@@ -80,6 +83,7 @@ export const FooterOval_4 = styled.div`
   top: 52%;
   z-index: -1;
   position: absolute;
+  opacity: 31%;
   @media (max-width: 768px) {
     right: -20%;
     top: 45%;
@@ -98,6 +102,7 @@ export const FooterOval_5 = styled.div`
   top: 52%;
   z-index: -1;
   position: absolute;
+  opacity: 31%;
   @media (max-width: 768px) {
     right: 64.7%;
     top: 45%;

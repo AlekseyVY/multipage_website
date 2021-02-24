@@ -51,6 +51,7 @@ export const SimpleHeroOval_1 = styled.div`
   right: 0%;
   top: -65%;
   z-index: -1;
+  opacity: 31%;
   @media (max-width: 768px) {
     right: -20%;
     top: -70%;
@@ -68,6 +69,7 @@ export const SimpleHeroOval_2 = styled.div`
   top: -65%;
   z-index: -1;
   position: absolute;
+  opacity: 31%;
   @media (max-width: 768px) {
     right: 22.4%;
     top: -70%;
@@ -84,6 +86,7 @@ export const SimpleHeroOval_3 = styled.div`
   right: 26.2%;
   top: 53.8%;
   z-index: -1;
+  opacity: 31%;
   position: absolute;
   @media (max-width: 768px) {
     right: 22%;
@@ -102,6 +105,7 @@ export const SimpleHeroOval_4 = styled.div`
   right: 0%;
   top: 53.8%;
   z-index: -1;
+  opacity: 31%;
   position: absolute;
   @media (max-width: 768px) {
     right: -20%;
@@ -120,6 +124,7 @@ export const SimpleHeroOval_5 = styled.div`
   right: 52.5%;
   top: -65%;
   z-index: -1;
+  opacity: 31%;
   position: absolute;
   @media (max-width: 768px) {
     right: 64.7%;

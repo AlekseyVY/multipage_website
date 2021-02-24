@@ -45,6 +45,7 @@ export const BigOvalCopy = styled.div`
   transform: rotate(180deg);
   top: 63%;
   right: 0%;
+  opacity: 50.23%;
   z-index: -1;
   @media (max-width: 375px) {
     display: none;
@@ -77,7 +78,7 @@ export const Oval = styled.div`
   border-radius: 90%;
   background: linear-gradient(0deg, rgba(93, 2, 2, 0.01) 0%, rgba(93, 2, 2, 0.30) 100%);
   position: absolute;
-  opacity: ;
+  opacity: 31%;
   right: 0%;
   top: 0%;
   z-index: -1;
