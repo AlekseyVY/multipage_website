@@ -1,7 +1,6 @@
+import dynamic from "next/dynamic";
 import {
-  HamburgerLine,
   HeaderContainer,
-  MenuToggle, MenuToggleInput,
   MobileNav,
   NavGroup,
   NavGroupContainer,
@@ -9,7 +8,7 @@ import {
   NavLogo
 } from "./styles";
 import Link from 'next/link'
-import MobileHamburger from "../MobileHamburger/MobileHamburger";
+const MobileHamburger = dynamic(import("../MobileHamburger/MobileHamburger"));
 
 const Header = () => {
 

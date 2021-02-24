@@ -68,6 +68,9 @@ export const NavLink = styled.a`
   &:hover {
     cursor: pointer;
   }
+  @media (max-width: 375px) {
+    display: none;
+  }
 `
 
 

@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import Header from "../common/Header/Header";
-import Footer from "../common/Footer/Footer";
-import {
+import dynamic from "next/dynamic";
+const Header = dynamic(import ("../common/Header/Header"));
+const Footer = dynamic(import("../common/Footer/Footer"));
+import  {
   BigOval, BigOvalCopy,
   CardContainer,
   H1Hero,
@@ -13,9 +14,9 @@ import {
   ImageContainer, InnerCardContainer, MainContainer, MottoContainer,
   Oval
 } from "../styles/homepage/styles";
-import Button from "../common/Button/Button";
-import PromoCardDesign from "../common/PromoCardDesign/PromoCardDesign";
-import HomeSimpleCard from "../common/HomeSimpleCard/HomeSimpleCard";
+const Button = dynamic(import("../common/Button/Button"));
+const PromoCardDesign = dynamic(import("../common/PromoCardDesign/PromoCardDesign"));
+const HomeSimpleCard = dynamic(import("../common/HomeSimpleCard/HomeSimpleCard"));
 
 export default function Home() {
   return (
