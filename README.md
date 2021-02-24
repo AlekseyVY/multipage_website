@@ -1,5 +1,4 @@
 # Designo Agency Website
-# Work in progress: 
 # https://multipage-website.vercel.app/
 
 ![Design preview for the Designo Agency Website](preview.jpg)
