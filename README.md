@@ -12,4 +12,4 @@
 - **Bonus**: View actual locations on the locations page maps (use [Leaflet JS](https://leafletjs.com/))
 
 
-### coded by Aleksey Vasiliev. -> [Join me on my social](https://vk.com/alekseyvy) <-
+### coded by Aleksey Vasiliev. -> [Join me on my social](https://vk.com/alekseyvy) <
